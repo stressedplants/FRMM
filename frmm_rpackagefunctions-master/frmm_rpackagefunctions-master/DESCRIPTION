@@ -1,0 +1,21 @@
+Package: FRMM2
+Type: Package
+Title: Functional Regression Mixture Modelling
+Version: 0.1.2
+Date: 2020-06-05
+Author: Susana Conde
+Maintainer: Susana Conde <sconde778@gmail.com>
+Description: It finds clusters of observations assuming an underlying functional mixture regression model, where the response and all the explanatory variable are functional.
+    R clues package is used in prop.correct.pairs.lth.partition.and.truth.function().
+    R FDboost package is used in iterative.clustering.function(); fda and fda.usc packages are used in the same function if norm='l2cont'.
+    Etc. at the moment.
+    Use four spaces when indenting paragraphs within the Description.
+Depends:
+    R (>= 3.6.3)
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Imports: FDboost (>= 0.3.2),
+    fda (>= 2.4.8),
+    fda.usc (>= 1.5.0),
+    clues (>= 0.6.1)

@@ -1,0 +1,2 @@
+# Export all names # https://kbroman.org/pkg_primer/pages/proper.html
+exportPattern("^[[:alpha:]]+")
